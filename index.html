@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+
+    <title>Infinity Guitar Chord</title>
+	<link rel="stylesheet" href="assets/css/custom.css" >
+	<link rel="stylesheet" href="assets/css/easy-autocomplete.min.css" id="theme-style">	
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">	
+    <link rel="stylesheet" href="assets/css/framework7.ios.css">	
+  
+	
+    
+
+    <link rel="stylesheet" href="assets/css/app.css">
+   
+    
+</head>
+<body class="">
+
+<div class="statusbar-overlay"></div>
+<div class="panel-overlay"></div>
+
+<!-- Left panel -->
+<div class="panel panel-left panel-reveal">
+    <div class="line"></div>
+
+    <div class="logo-box mt-10">
+        <strong>Infinity</strong>
+        <div>Guitar Chord</div>
+    </div>
+
+    <div class="list-block mt-15">
+        <div class="list-group">
+            <nav>
+                <ul>
+                    <li class="divider">
+                        Menu
+                    </li>
+                    <li>
+                        <a href="index.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-home"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Dashboard</div>
+                                
+                            </div>
+                        </a>
+
+                    </li>
+
+					<li>
+                        <a href="carilagu.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Cari lagu</div>
+                            </div>
+                        </a>
+                    </li>
+					<li>
+                        <a href="banddir.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-folder"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Band Directory</div>
+                            </div>
+                        </a>
+                    </li>
+					<li>
+                        <a href="mychord.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">My Chord</div>
+								<div class="item-after" id="jumlahmychord">
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+					<li class="divider">
+                        Other
+                    </li>
+					<li>
+                        <a href="petunjuk.html" class="item-link close-panel item-content">
+                            <div class="item-media">
+                                <i class="fa fa-question"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Petunjuk</div>
+							</div>
+                            
+                        </a>
+                    </li>
+					<li>
+                        <a href="" data-picker=".picker-social" class=" open-picker item-link close-panel item-content ">
+                            <div class="item-media">
+                                <i class="fa fa-share-alt"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Bagikan</div>
+							</div>
+                            
+                        </a>
+                    </li>
+					<li>
+                        <a href="" id="ratebutton" class="item-link close-panel item-content ">
+                            <div class="item-media">
+                                <i class="fa fa-thumbs-up"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Beri Nilai</div>
+							</div>
+                            
+                        </a>
+                    </li>
+					<div id="isi_li">
+					
+					</div>
+					<li>
+                        <a href="" id="exitbutton" class="item-link close-panel item-content ">
+                            <div class="item-media">
+                                <i class="fa fa-times-circle"></i>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title">Keluar</div>
+							</div>
+                            
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Views -->
+<div class="views">
+    <div class="view view-main">
+
+        <div class="navbar navbar-clear anim-navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link icon-only open-panel">
+                        <span class="kkicon icon-menu"></span>
+                    </a>
+                </div>
+                <div class="center sliding">
+                    <span class="anim-logo-small" style="opacity: 0">Infinity</span>
+                </div>
+                <div class="right">
+                    <a href="carilagu.html" class="link icon-only " >
+                        <span class="icon-magnifier"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pages navbar-fixed toolbar-fixed ">
+            <div data-page="index" class="page ">
+                <div class="page-content">
+
+                    <div class="nice-header header-fix-top small">
+                        <div class="logo anim-logo">
+                            <h1>IGC</h1>
+                            <h2>Infinity Guitar Chord</h2>
+                        </div>
+                        <svg class="anim-svg" viewBox="0 0 629 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                            <defs></defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                                <g id="Splash" sketch:type="MSArtboardGroup" transform="translate(-60.000000, -749.000000)" fill="#FFFFFF">
+                                    <g id="flaga" sketch:type="MSLayerGroup">
+                                        <path d="M60.7617187,750.025391 L375.435547,811.568359 L688.558594,749.867188 L60.7617187,750.025391 Z" id="Path-30" sketch:type="MSShapeGroup"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <article>
+                        <div class="author">
+                            <img src="assets/img/mylogo.png" alt=""/>
+                            <span>
+                                IGC By<br>Inc Media Tawa
+                            </span>
+                        </div>
+                        <div class="buttons">
+                            <a href="#"><span class="icon-bubble-dots"></span></a>
+                            <a href="#"><span class="icon-heart"></span></a>
+                        </div>
+                        <div class="text">
+                            <h2>
+                                <a href="about.html">Dengan Daftar Lagu terbaru</a>
+                            </h2>
+                            <span>123 Artist Baru</span>
+                            <span>467 Album Baru</span>
+                            <span>1265 Lagu Baru</span>
+                        </div>
+                        <img class="article-bg" src="assets/img/temp_1.png" alt=""/>
+                    </article>
+					
+					
+					
+					<div class="card card-header-pic">
+					<button class="popular-button button button-primary" style=""><span><span>Popular Chord This Week</span></span></button>
+					<div class="popularchord" id="popularchord">
+						
+                    </div>
+                    
+					
+					</div>
+              
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="popup popup-splash">
+    <div class="content-block">
+        <a href="#" class="close-popup">
+            skip
+        </a>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide text-center">
+                    <div class="slide-content">
+                        <h2>New Look</h2>
+
+                        <h3>Desain UI yang menarik</h3>
+                        <img src="assets/img/splash2.png" alt=""/>
+                    </div>
+                </div>
+                <div class="swiper-slide text-center">
+                    <div class="slide-content">
+                        <h2>Newest Song Database</h2>
+
+                        <h3>Penambahan 1000+ Lagu Baru ke dalam database</h3>
+                        <img src="assets/img/splash3.png" alt=""/>
+                    </div>
+                </div>
+                <div class="swiper-slide text-center">
+                    <div class="slide-content clearfix">
+                        <h2>Live Auto Search</h2>
+
+                        <h3>Penelusuran Lagu di permudah dengan adanya fitur Pencarian Lagu Otomatis</h3>
+							<img src="assets/img/splash1.png" alt=""/>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-color"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Picker -->
+<div class="picker-modal picker-social">
+    <div class="toolbar">
+        <div class="toolbar-inner">
+            <div class="left"></div>
+            <div class="right"><a href="#" class="close-picker">Tutup</a></div>
+        </div>
+    </div>
+    <div class="picker-modal-inner">
+        <div class="content-block mt-15 mb-10">
+            <h3>Bagikan Jika Bermanfaat!</h3>
+
+            <p>Ayo Bagikan Aplikasi ini Ke Teman/Sahabar/Kerabat/keluarga anda.</p>
+
+            <div class="social-buttons">
+                <a href="#" class="link" id="shareToWA" style="background-color: #0b8c54;"><i class="fa fa-whatsapp"></i></a>
+                <a href="#" class="link" id="shareToFB" style="background-color: #0c6dad;" ><i class="fa fa-facebook"></i></a>
+                <a href="#" class="link" id="shareToIG" style="background-color: #C50558;"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="link" id="shareToSMS" style="background-color: #D95232;"><i class="fa fa-comment"></i></a>
+                <a href="#" class="link" id="shareToEmail" style="background-color: #0274B3;"><i class="fa fa-envelope"></i></a>
+                <a href="#" class="link" id="shareToLink" style="background-color: #d99e32;"><i class="fa fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.easy-autocomplete.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.swipebox.min.js"></script>
+<script type="text/javascript" src="assets/js/framework7.min.js"></script>
+
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script src="cordova.js"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+.easy-autocomplete {
+	width:85% !important;
+}
+.easy-autocomplete > input[type=text]{
+width:100%;
+    height: 35px;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(../img/music-player.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 36px;
+	border: 2px solid #31ddff;
+}
+
+
+
+.judulLagu{
+	text-align: center;
+}
+
+
+
+.containerZoom {
+	z-index: 500;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 60px;
+    left: 20%;    
+	height: 30px;
+	
+}
+.containerscroll {
+	z-index: 500;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 60px;
+    left: 42%;    
+	height: 30px;
+	
+}
+.textscroll{
+	width:30px;
+	font-size:26px;
+}
+.classhome{
+	display: inline-block;
+}
+.classhome .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.classhome:hover .tooltiptext {
+  visibility: visible;
+}
+.diagram_chord{
+display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+#belumsimpan .fa-star{
+	
+	color:white;
+}
+
+#sudahsimpan .fa-star{
+	
+	color:#f9e605;
+}
+.banddir{
+	
+	border-color: #b1b1b1;
+    border-bottom-style: groove;
+}
+.popular-button{
+	
+	padding:5px !important;
+	width:100%;
+	background-color: #fc5241  !important;
+	color: white !important;
+	text-align: center !important;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3)!important;
+}
+.popular-button > span{
+	
+	width:100%;
+	display: inline-block;
+    background: #bb1403;
+}
+.popular-button > span > span{
+	width: 98%;
+    margin: 3px;
+    background-color: #fc5241;
+	box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    display: inline-block;
+	}
+.popularcard{
+	 background: rgb(46, 44, 55);
+	border-left: 2px solid #fc5241;
+	border-right: 2px solid #fc5241;
+}
+.buttonbanddir{
+	
+	border: 3px solid #bb1403 !important;
+	width:100%;
+	background: #ef301dde  !important;
+	color:white !important;
+}
+.banddircard{
+	background: rgba(60, 27, 27, 0.86);
+    border-left: 2px solid #a23c31;
+    border-right: 2px solid #a23c31;
+}
+.buttonbandlist{
+	border: 3px solid #bb1403 !important;
+	width:100%;
+	background: #FC5241 !important;
+	color:white !important;
+}
+.bandlistcard{
+	background: rgb(252, 82, 65);
+    border-left: 2px solid #a23c31;
+    border-right: 2px solid #a23c31;
+}
+.buttonbandalbum{
+	width:100%;
+	background: #FC5241!important;
+	border-color: #6d3030!important;
+}
+.bandalbumcard{
+	background: rgba(51, 51, 51, 0.88);
+    border-left: 2px solid #a23c31;
+    border-right: 2px solid #a23c31;
+	
+}
+.mychordcard{
+	background: rgb(54, 76, 93);
+    border-left: 2px solid #56b2fb;
+    border-right: 2px solid #56b2fb;
+}
+.buttonmychord{
+	background:#20b5f1!important;
+}
+.petunjukcard{
+	background: rgba(51, 51, 51, 0.88);
+
+	
+}

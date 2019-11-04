@@ -1,0 +1,112 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="" class="link back" data-load-previous="true">
+                <span class="icon-chevron-left"></span> <span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding" id="tittle_lagi">Cari Lagu</div>
+        <div class="right">
+                    <a href="carilagu.html" class="link back icon-only " >
+                        <span class="icon-magnifier"></span>
+                    </a>
+                </div>
+    </div>
+</div>
+
+<div class="pages navbar-fixed toolbar-fixed">
+    <div data-page="chordplayer" class="page   page-bg-color">
+		<div class="containerZoom" style="display:none;">
+			<div class="buttons-row" >
+				
+				<button id="zoomin" class="tab-link button button-fill button-success"><i class="fa fa-search-plus fa-10x"></i></button> &nbsp;
+                <button  id="zoomout" class="tab-link button button-fill button-alert"><i class="fa fa-search-minus fa-10x"></i></button>
+           &nbsp; <i class="fa fa-times-circle fa-lg"></i>
+			</div>
+			
+			
+		</div>
+		<div class="containerscroll" style="display:none;">
+			<div class="buttons-row" >
+				
+				<button class="button button-fill button-secondary btn_play" id="btn_play"><i class="fa fa-play fa-10x"></i></button> &nbsp;
+				<button class="button button-fill button-primary btn_stop" style="display:none;"><i class="fa fa-stop fa-10x"></i></button> &nbsp;
+                <input type="number" class="textscroll" id="textscroll" value="">
+           &nbsp; <i class="fa fa-times-circle fa-lg close_scroll"></i>
+			</div>
+			
+			
+		</div>
+		
+		
+		<div class="toolbar">
+            <div class="toolbar-inner" style="background-color:#b73528;">
+				<a href="index.html" class="link tombolHomeToolTip">
+                    <span class="fa-stack fa-lg" >
+						
+						<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+					</span>
+                </a>
+				<a href="#" class="link tampilzoom">
+                   <span class="fa-stack fa-lg" >
+						
+						<i class="fa fa-font fa-stack-1x fa-inverse"></i>
+					</span>
+                </a>
+				
+                <a href="#" class="link tampilscroll">
+                    <span class="fa-stack fa-lg" >
+						
+						<i class="fa fa-play-circle fa-stack-1x fa-inverse"></i>
+					</span>
+                </a>
+               
+
+                <a href="#" class="link simpanchord">
+				
+  
+					<span class="fa-stack fa-lg" id="belumsimpan">
+						
+						<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+					</span>
+					<span class="fa-stack fa-lg" id="sudahsimpan" style="display:none;">
+						
+						<i class="fa fa-star fa-stack-1x fa-inverse"></i>
+					</span>
+                    
+                  
+                    
+                </a>
+				<div id="dpalbum">
+                
+				</div>
+				
+				<div id="dpvideo">
+                
+				</div>
+            </div>
+        </div>
+        <div class="page-content ">
+            <div class="content-block mb-15">
+			
+					<div class="judulLagu">
+                    <h3 id="textjudullagu">Judul Lagu</h3>
+					</div>
+                    <div class="buttons-row">
+					<button id="transposeUp" class="button button-fill button-primary"><i class="fa fa-angle-double-up"></i> Up <i class="fa fa-angle-double-up"></i></button>
+                        <a href="" class="tab-link active button button-secondary">Transpose</a>
+                        
+                        <button id="transposeDown" class="button button-fill button-primary"><i class="fa fa-angle-double-down"></i> Down <i class="fa fa-angle-double-down"></i></button>
+                    </div>
+                </div>
+				
+				<div class="content-block mb-15 ">
+		  <div id="stage" class="stage"></div>
+		  <div id="endchord"></div> 
+			</div>
+			
+			
+        </div>
+		  
+    </div>
+</div>
